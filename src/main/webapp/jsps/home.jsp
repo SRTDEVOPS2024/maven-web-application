@@ -11,7 +11,7 @@
 <body>
 <h1 align="center"> Welcome to Mithun Technologies Private Ltd. Best Place to upskill - New Terraform Batch will start on Oct 1st at 8.00 AM IST - WebHook Demo</h1>
 <h1 align="center">Welcome to Mithun Technologies Private Ltd. Ph No: +91-9980923226, +91-9980923216 ,+91-9900012028,Bengaluru,Karnataka,India,ANDHRAPRADESH,ALLOVERINDIA</h1>
-<h1 align="center"> Mithun Technologies- Very Good Training center for DevOps with AWS,Python & AWS Solution Architect & Terraform in Bangalore India.Teaching Real Time scnerios,wellexplations,hello this is the one of the best learning platform..,in the banglore over india...  using the git hubwebhook.. </h1>
+<h1 align="center"> Mithun Technologies- Very Good Training center for DevOps with AWS,Python & AWS Solution Architect & Terraform in Bangalore India.Teaching Real Time scnerios,wellexplations,hello this is the one of the best learning platform..,in the banglore.it is one of the best cloud learning platform alloverindia</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
