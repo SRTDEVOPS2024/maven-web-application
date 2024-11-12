@@ -13,16 +13,16 @@ node {
     stage ('Do the Maven bill or Bulid'){
         sh "${MavenHome}/bin/mvn clean package"
     }
-    stage ('Execute the sonarQube Report'){
-        sh "${MavenHome}/bin/mvn clean sonar:sonar"
-    }
-    stage ('upload the build artifacts in to artifactRepository'){
-          sh "${MavenHome}/bin/mvn clean deploy"
-    }
-    stage ("Deploy the application into tomcat server"){
-          sshagent(['a2b21e54-6d4c-4404-bcd1-af26d607637d']){
-             sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@172.31.10.216:/opt/apache-tomcat-9.0.96/webapps"
+    //stage ('Execute the sonarQube Report'){
+        //sh "${MavenHome}/bin/mvn clean sonar:sonar"
+    //}
+    //stage ('upload the build artifacts in to artifactRepository'){
+          //sh "${MavenHome}/bin/mvn clean deploy"
+    //}
+    //stage ("Deploy the application into tomcat server"){
+          //sshagent(['a2b21e54-6d4c-4404-bcd1-af26d607637d']){
+             //sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@172.31.10.216:/opt/apache-tomcat-9.0.96/webapps"
         
-        }
-    }
+        //}
+    //}
 }
