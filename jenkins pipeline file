@@ -13,6 +13,7 @@ node {
     stage ('Do the Maven bill or Bulid'){
         sh "${MavenHome}/bin/mvn clean package"
     }
+    */
     stage ('Execute the sonarQube Report'){
         sh "${MavenHome}/bin/mvn clean sonar:sonar"
     }
@@ -25,4 +26,5 @@ node {
         
         }
     }
+ /*
 }
